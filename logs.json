@@ -1,199 +1,107 @@
-{
-  "fusion_protector_updates": [
-    {
-      "date": "2025-10-27 08:36",
-      "message": "Fusion Protector is meant to protect everyone from the Montana client. Taking a break.",
-      "changes": [
-        "Initial statement about Fusion Protector purpose",
-        "Warning about Montana client"
-      ]
-    },
-    {
-      "date": "2025-11-02 23:52",
-      "message": "Example of why you should use Fusion Protector.",
-      "changes": []
-    },
-    {
-      "date": "2025-11-06 04:33",
-      "message": "Major feature update.",
-      "changes": [
-        "Fusion UI Elements (Yellow)",
-        "Ban/Unban From Your Lobbies",
-        "Copy Full Profile",
-        "Copy Steam ID",
-        "Open Steam Profile",
-        "Improved Alt Prevention",
-        "Alt Detection Notifications (Works When Not Host)",
-        "Alt Removal Works Without Host (if perms exist)",
-        "Alt Teleport-To-You Option",
-        "Spoof Profile Notifications",
-        "Clone Exploit Notifications",
-        "Spawnable Warn/Block Page",
-        "Spawn/Avatar logs improvements"
-      ]
-    },
-    {
-      "date": "2025-11-07 15:11",
-      "message": "Settings update.",
-      "changes": [
-        "Settings Saving",
-        "Improved Client Exploit Logging",
-        "Avatar Searcher",
-        "Improved Kick/Crash Exploit Removal",
-        "Auto-clear exploit/spawn/avi logs options"
-      ]
-    },
-    {
-      "date": "2025-11-08 07:21",
-      "message": "Protection avatar and new features.",
-      "changes": [
-        "Local Protection Avatar",
-        "Bug fixes",
-        "Clear log buttons",
-        "Godmode",
-        "Ban Steam ID from Lobby",
-        "Emergency Escape (Hold Y+B)",
-        "Anti Knockout",
-        "Private Profile Check for Alt Prevention",
-        "Unlimited Ammo",
-        "Anti Self Constraints"
-      ]
-    },
-    {
-      "date": "2025-11-08 15:14",
-      "message": "Small update.",
-      "changes": [
-        "Unlimited Ammo (additional)",
-        "Anti Self Constraints (additional)",
-        "Gamemode restrictions added"
-      ]
-    },
-    {
-      "date": "2025-11-09 07:09",
-      "message": "Spawnable searcher added.",
-      "changes": [
-        "Spawnable Searcher (requires holding spawn gun)"
-      ]
-    },
-    {
-      "date": "2025-11-09 09:43",
-      "message": "Alt prevention improvement.",
-      "changes": [
-        "More alt-prevention info",
-        "Bug fix"
-      ]
-    },
-    {
-      "date": "2025-11-10 12:10",
-      "message": "Large update.",
-      "changes": [
-        "Spawners added",
-        "Movement Settings",
-        "mod.io Mods Received Logger",
-        "Multiple misc improvements"
-      ]
-    },
-    {
-      "date": "2025-11-11 04:47",
-      "message": "Fusion drama link post.",
-      "changes": []
-    },
-    {
-      "date": "2025-11-16 22:00",
-      "message": "Teleporters update.",
-      "changes": [
-        "Teleporters with map locking and save/load"
-      ]
-    },
-    {
-      "date": "2025-11-17 13:38",
-      "message": "Despawn & permission improvements.",
-      "changes": [
-        "Despawn All w/ filters",
-        "Improved Ban/Unban",
-        "Ban/Unban Recently Met players",
-        "Block All Net Spawns Locally",
-        "Alt detection fix",
-        "Settings load/save fix",
-        "Spawners page fix",
-        "Despawn timer filters"
-      ]
-    },
-    {
-      "date": "2025-11-18 12:02",
-      "message": "Owner-specific despawn.",
-      "changes": [
-        "Despawn Objects Spawned By Player (Owner-only)"
-      ]
-    },
-    {
-      "date": "2025-11-18 18:34",
-      "message": "Spawnable searcher bug fix.",
-      "changes": [
-        "Fixed spawnable searcher"
-      ]
-    },
-    {
-      "date": "2025-11-18 19:32",
-      "message": "More UI updates.",
-      "changes": [
-        "All Lobbies UI",
-        "Anti Grip"
-      ]
-    },
-    {
-      "date": "2025-11-19 17:03",
-      "message": "Bug fixes.",
-      "changes": [
-        "Alt detector bug fix",
-        "Guest → Operator rename",
-        "Teleporter bug fix"
-      ]
-    },
-    {
-      "date": "2025-11-19 18:23",
-      "message": "Owner protection improvements.",
-      "changes": [
-        "Spawn Bypass Protection (Owner Only)"
-      ]
-    },
-    {
-      "date": "2025-11-20 02:07",
-      "message": "FPS Despawner added.",
-      "changes": [
-        "FPS Despawner with custom FPS limit (Owner Only)"
-      ]
-    },
-    {
-      "date": "2025-11-20 21:03",
-      "message": "Additional protection updates.",
-      "changes": [
-        "Out of Bounds Instant Rejoin",
-        "Permissions fix",
-        "Remove Grip Icons",
-        "Show Barcode IDs",
-        "Disable Body Log",
-        "Anti Dev Manipulator (Owner Only)"
-      ]
-    },
-    {
-      "date": "2025-11-21 16:37",
-      "message": "Anti grief & spoof fixes.",
-      "changes": [
-        "Anti Grief Bodylog",
-        "Fixed bodylog dragging issue",
-        "Out-of-bounds rejoin fix",
-        "Anti Decals",
-        "Red Bodylog UI",
-        "Anti Spoof Steam ID (fixed harmony parameter issue)"
-      ]
-    },
-    {
-      "date": "2025-11-21 18:07",
-      "message": "Compatibility warning.",
-      "changes": [
-        "Fusion Protector NOT compatible with Montana Client"
-      ]
-    }
-  ]
-}
+[
+  {
+    "date_time": "November 21, 2025 • 6:07 PM",
+    "author": "James Reborn",
+    "content": "* Fusion Protector is NOT compatible with Montana Client\nPlease do not run both."
+  },
+  {
+    "date_time": "November 21, 2025 • 4:37 PM",
+    "author": "James Reborn",
+    "content": "* Added Anti Grief Bodylog\n* Fixed Bodylog Drag Issue\n* Fixed OOB Rejoin\n* Added Anti Decals\n* Added Red Bodylog UI\n* Fixed Anti Spoof Steam ID (Harmony parameter error fixed)\nRedownload to get update!"
+  },
+  {
+    "date_time": "November 20, 2025 • 9:03 PM",
+    "author": "James Reborn",
+    "content": "* Added Out Of Bounds Instant Rejoin\n* Fixed Permissions\n* Added Remove Grip Icons\n* Added Show Barcode IDs\n* Added Disable Body Log\n* Added Anti Dev Manipulator [OWNER ONLY]\nRedownload to get update!"
+  },
+  {
+    "date_time": "November 20, 2025 • 2:07 AM",
+    "author": "James Reborn",
+    "content": "* Added FPS Despawner With Custom FPS Limit [owner permissions only]\nRedownload to get update!"
+  },
+  {
+    "date_time": "November 19, 2025 • 6:23 PM",
+    "author": "James Reborn",
+    "content": "* Added Spawn Bypass Protection [OWNER] [Deletes anything spawned by users without devtools perms]\nRedownload to get update!"
+  },
+  {
+    "date_time": "November 19, 2025 • 5:03 PM",
+    "author": "James Reborn",
+    "content": "* Fixed Alt Detector Bug\n* Changed Guest To Operator\n* Fixed Teleporters Bug\nRedownload to get update!"
+  },
+  {
+    "date_time": "November 18, 2025 • 7:32 PM",
+    "author": "James Reborn",
+    "content": "* Added All Lobbies\n* Added Anti Grip\nRedownload to get update!"
+  },
+  {
+    "date_time": "November 18, 2025 • 6:34 PM",
+    "author": "James Reborn",
+    "content": "Fixed a issue with spawnable searcher. Redownload to get update!"
+  },
+  {
+    "date_time": "November 18, 2025 • 12:02 PM",
+    "author": "James Reborn",
+    "content": "* Added Despawn Objects They Spawned [Owner Only] (in Fusion Playerlist UI)\nRedownload to get update!"
+  },
+  {
+    "date_time": "November 17, 2025 • 1:38 PM",
+    "author": "James Reborn",
+    "content": "* Added Despawn All + Filters\n* Improved Ban/Unban From Lobby\n* Added Ban/Unban To Recently Met\n* Added Block All Net Spawns Locally\n* Fixed Alt Detection Bug\n* Fixed Settings Saving/Loading\n* Fixed Spawners Page Bug\n* Added Despawn Timer Filters\nRedownload to get update!"
+  },
+  {
+    "date_time": "November 16, 2025 • 10:00 PM",
+    "author": "James Reborn",
+    "content": "* Added Teleporters [Map Lock + Save/Load]\nRedownload to get update!"
+  },
+  {
+    "date_time": "November 11, 2025 • 4:47 AM",
+    "author": "James Reborn",
+    "content": "If you’re here because of the Fusion cheating drama, I’m sharing the full story on another server. Contains NSFW. Join at your own risk."
+  },
+  {
+    "date_time": "November 10, 2025 • 12:10 PM",
+    "author": "James Reborn",
+    "content": "* Added Spawners\n* Added Movement Settings\n* Added Mod.IO Mods Received Logger\n* Added A Bunch More\nRedownload to get update! ENJOY"
+  },
+  {
+    "date_time": "November 9, 2025 • 9:43 AM",
+    "author": "James Reborn",
+    "content": "Added more info to alt prevention + fixed bug. Redownload for update!"
+  },
+  {
+    "date_time": "November 9, 2025 • 7:09 AM",
+    "author": "James Reborn",
+    "content": "* Added Spawnable Searcher (requires holding spawn gun)\nRedownload for update!"
+  },
+  {
+    "date_time": "November 8, 2025 • 3:14 PM",
+    "author": "James Reborn",
+    "content": "* Unlimited Ammo\n* Anti Self Constraints\nTwo new options. Redownload to get update!"
+  },
+  {
+    "date_time": "November 8, 2025 • 7:21 AM",
+    "author": "James Reborn",
+    "content": "* Added Local Protection Avi\n* Fixed bugs\n* Added Clear Log Buttons\n* Added Godmode\n* Added Ban Steam ID From Lobby\n* Added Emergency Escape (Hold Y+B)\n* Added Anti Knockout\n* Added Private Profile Check (Alt Prevention)\n* Unlimited Ammo\n* Anti Self Constraints\nNote: Does not work in gamemodes."
+  },
+  {
+    "date_time": "November 7, 2025 • 3:11 PM",
+    "author": "James Reborn",
+    "content": "* Added Settings Saving\n* Improved Exploit Logging\n* Added Avatar Searcher\n* Improved Exploit Removal\n* Added Settings Options\n* Clear logs on join\nRedownload to get update! ENJOY"
+  },
+  {
+    "date_time": "November 6, 2025 • 4:33 AM",
+    "author": "James Reborn",
+    "content": "* Added Fusion UI Elements (Yellow)\n* Ban/Unban\n* Copy Full Profile\n* Copy Steam ID\n* Open Steam Profile\n* Improved Alt Prevention\n* Added Alt Detection Notifications\n* Improved Alt Remover\n* Teleport Alts To You Option\n* Spoof Profile Notifications\n* Clone Exploit Notifications\n* Spawnable Warn/Block Page\n* Improved Logs\nRedownload to get update!"
+  },
+  {
+    "date_time": "October 27, 2025 • 8:36 AM",
+    "author": "James Reborn",
+    "content": "Fusion Protector is meant to protect everyone from the Montana client. Taking a break. Stay safe."
+  },
+  {
+    "date_time": "not set",
+    "author": "tinyboone for my site",
+    "content": ""
+  }
+]
